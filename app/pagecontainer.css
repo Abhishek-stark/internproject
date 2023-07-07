@@ -43,6 +43,15 @@
 .ul_container li {
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    color: #7D8FB3;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.lic {
+    font-size: 18px !important;
+    line-height: 30px !important;
+    color: #4D5E80 !important;
 }
 
 .ul_container li:hover {

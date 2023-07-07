@@ -26,22 +26,18 @@ const page = () => {
         <div className="navbar">
           <ul className="ul_container">
             <li className="ul_li1">
-              <button className="menubtn">
-                <Image
-                  src="./button.svg"
-                  alt="button"
-                  className="vercelLogo"
-                  width={50}
-                  height={50}
-                  priority
-                  onClick={sendprops}
-                />
-              </button>
+              <Image
+                src="./button.svg"
+                alt="button"
+                className="vercelLogo"
+                width={50}
+                height={50}
+                priority
+                onClick={sendprops}
+              />
             </li>
 
-            <li className="ul_li2">
-              <h4 className={roboto.className}>Constructor</h4>
-            </li>
+            <li className="ul_li2 lic">Constructor</li>
             <li className="ul_li3">Dashboard</li>
             <li className="ul_li3">About Us</li>
             <li className="ul_li3">News</li>
