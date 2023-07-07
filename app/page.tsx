@@ -1,95 +1,118 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client";
+import React from "react";
+import { useState } from "react";
+import "./pagecontainer.css";
+import Image from "next/image";
+import { Roboto } from "next/font/google";
+import "./Component/Navigation";
+import Navigation from "./Component/Navigation";
+import Sidebar from "./Component/Sidebar";
+import Maincontent from "./Component/Maincontent";
+const roboto = Roboto({
+  weight: "700",
+  subsets: ["latin"],
+});
+const page = () => {
+  const [classprop, seteclassprop] = useState(true);
 
-export default function Home() {
+  const sendprops = () => {
+    seteclassprop(!classprop);
+  };
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="pagecontainer">
+      <div className="container">
+        <div className="navbar">
+          <ul className="ul_container">
+            <li className="ul_li1">
+              <button className="menubtn">
+                <Image
+                  src="/button.svg"
+                  alt="button"
+                  className="vercelLogo"
+                  width={50}
+                  height={50}
+                  priority
+                  onClick={sendprops}
+                />
+              </button>
+            </li>
+
+            <li className="ul_li2">
+              <h4 className={roboto.className}>Constructor</h4>
+            </li>
+            <li className="ul_li3">Dashboard</li>
+            <li className="ul_li3">About Us</li>
+            <li className="ul_li3">News</li>
+            <li className="ul_li3">user Policy</li>
+            <li className="ul_li3">Contacts</li>
+            <li className="ul_li3">...</li>
+            <li className="ul_li9">
+              <Image
+                src="/searchicon.svg"
+                alt="button"
+                className="navsearchicon"
+                width={18}
+                height={18}
+                priority
+              />
+              <form action="">
+                <input
+                  type="search"
+                  placeholder="Search Products,Orders and clients"
+                />
+              </form>
+              <Image
+                src="/gtarrow.svg"
+                alt="button"
+                className="gtarrowicon"
+                width={7}
+                height={12}
+                priority
+              />
+            </li>
+            <li>
+              <Image
+                src="/account_circle.svg"
+                alt="button"
+                className="vercelLogo"
+                width={50}
+                height={50}
+                priority
+              />
+            </li>
+            <li className="ul_li3">Clayton Santos</li>
+            <li className="ul_li11">
+              {" "}
+              <Image
+                src="/alarm.svg"
+                alt="button"
+                className="vercelLogo"
+                width={50}
+                height={50}
+                priority
+              />
+            </li>
+            <li className="ul_li12">
+              {" "}
+              <Image
+                src="/cross.svg"
+                alt="button"
+                className="vercelLogo"
+                width={50}
+                height={50}
+                priority
+              />
+            </li>
+          </ul>
+        </div>
+        <div className={`${classprop ? "mainsection" : "changedmainsection"}`}>
+          <Navigation classpasses={classprop} />
+          <Sidebar />
+          <Maincontent />
         </div>
       </div>
+    </div>
+  );
+};
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+export default page;
