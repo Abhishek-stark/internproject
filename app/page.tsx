@@ -1,6 +1,6 @@
-"use client";
+// "use client";
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import "./pagecontainer.css";
 import Image from "next/image";
 import { Roboto } from "next/font/google";
@@ -13,10 +13,12 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 const page = () => {
-  const [classprop, seteclassprop] = useState(true);
+  // const [classprop, seteclassprop] = useState(true);
 
+  let propsvaulue = true;
+  let classprop = propsvaulue;
   const sendprops = () => {
-    seteclassprop(!classprop);
+    classprop = !propsvaulue;
   };
   return (
     <div className="pagecontainer">
