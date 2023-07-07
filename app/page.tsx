@@ -27,7 +27,7 @@ const page = () => {
           <ul className="ul_container">
             <li className="ul_li1">
               <Image
-                src="./button.svg"
+                src="./Button.svg"
                 alt="button"
                 className="vercelLogo"
                 width={50}
