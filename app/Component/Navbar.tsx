@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-import "@/pagecontainer.css";
+import "./../pagecontainer.css";
 import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
 import Maincontent from "./Maincontent";
