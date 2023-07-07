@@ -1,0 +1,133 @@
+import React from "react";
+import Image from "next/image";
+import "./navigations.css";
+const Navigation = ({ classpasses }: { classpasses: boolean }) => {
+  console.log(classpasses);
+  return (
+    // navigation_container
+    <div
+      className={`${
+        classpasses ? "navigation_container" : "update_navigation"
+      }`}
+    >
+      <div className="navigation">
+        <div className="navigation_div_1">
+          <div>
+            <Image
+              src="/compass.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/star.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/messenger.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/linegraph.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/map.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/gridtable.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+        </div>
+        <div className="navigation_div2">
+          <div>
+            <Image
+              src="/img1.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/img2.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/img3.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/img4.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+          <div>
+            <Image
+              src="/lastbtn.svg"
+              alt="button"
+              className="navigationLogo"
+              width={50}
+              height={50}
+              priority
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navigation;

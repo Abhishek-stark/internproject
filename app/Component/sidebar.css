@@ -1,0 +1,129 @@
+.sidebar_container {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.sidebar {
+    margin: 49px 40px 10px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F8FA;
+    width: 250px;
+}
+
+.sidebar_icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebarLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.alfredLogo {
+    height: 110px;
+    width: 110px;
+}
+
+.alfred {
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B7A99;
+}
+
+.alfredid {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ADB8CC;
+}
+
+.tablesec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+    border-top-left-radius: 13px;
+    border: 2px solid #EDEFF2;
+    height: 490px;
+    width: 250px;
+}
+
+.tablesecLogo {
+    width: 21.23px;
+    height: 21.23px;
+    color: #C3CAD9;
+}
+
+.detailsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #EDEFF2;
+}
+
+
+/* .detailsec :hover {
+    cursor: pointer;
+    scale: 1.2;
+} */
+
+.detailsec :hover {
+    cursor: pointer;
+    color: #3361FF;
+    scale: 1.2;
+    z-index: 1700;
+}
+
+
+/* #control:hover ~ #target {
+    background: red; */
+
+.detailsec p {
+    line-height: 20px;
+    font-size: 12px;
+    color: #ADB8CC;
+}
+
+.notessec {
+    background-color: #FFFFFF;
+    border-top-right-radius: 15px;
+}
+
+.notessec p {
+    color: #3361FF !important;
+}
+
+.settinglogo {
+    border-bottom-right-radius: 15px;
+}
+
+.social {
+    display: flex;
+    width: 240px;
+    height: 60px;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #EDEFF2;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 60px 5px;
+    /* top=923px */
+}
+
+.socialLogo {
+    height: 30px;
+    width: 30px;
+}
+
+.dashboardlogo {
+    border-top-left-radius: 15px;
+}
