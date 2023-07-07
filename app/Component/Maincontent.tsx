@@ -160,7 +160,7 @@ const Maincontent = () => {
           <ul className="content_ul">
             <li className="contentlink">
               <Image
-                src="/tasks.svg"
+                src="./tasks.svg"
                 alt="button"
                 className="contentLogo"
                 width={50}
@@ -171,7 +171,7 @@ const Maincontent = () => {
             </li>
             <li className="contentlink">
               <Image
-                src="/dashboard.svg"
+                src="./dashboard.svg"
                 alt="button"
                 className="contentLogo"
                 width={50}
@@ -182,7 +182,7 @@ const Maincontent = () => {
             </li>
             <li className="contentlink">
               <Image
-                src="/calendars.svg"
+                src="./calendars.svg"
                 alt="button"
                 className="contentLogo"
                 width={50}
@@ -193,7 +193,7 @@ const Maincontent = () => {
             </li>
             <li className="contentlink">
               <Image
-                src="/gannt.svg"
+                src="./gannt.svg"
                 alt="button"
                 className="contentLogo"
                 width={50}
@@ -204,7 +204,7 @@ const Maincontent = () => {
             </li>
             <li className="contentlink">
               <Image
-                src="/timeline.svg"
+                src="./timeline.svg"
                 alt="button"
                 className="contentLogo"
                 width={50}
@@ -215,7 +215,7 @@ const Maincontent = () => {
             </li>
             <li className="contentlink">
               <Image
-                src="/activity.svg"
+                src="./activity.svg"
                 alt="button"
                 className="contentLogo"
                 width={50}
@@ -228,7 +228,7 @@ const Maincontent = () => {
         </div>
         <div className="content_navesearch">
           <Image
-            src="/searchicon.svg"
+            src="./searchicon.svg"
             alt="searchlogo"
             className="searchlogo"
             width={14}
@@ -251,7 +251,7 @@ const Maincontent = () => {
               <div>
                 <p className="cardtext">To Do</p>
                 <Image
-                  src="/five.svg"
+                  src="./five.svg"
                   alt="button"
                   className="cardLogo"
                   width={30}
@@ -262,7 +262,7 @@ const Maincontent = () => {
             </div>
             <div className="cardright">
               <Image
-                src="/dotes.svg"
+                src="./dotes.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -270,7 +270,7 @@ const Maincontent = () => {
                 priority
               />{" "}
               <Image
-                src="/pluseicon.svg"
+                src="./pluseicon.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -282,7 +282,7 @@ const Maincontent = () => {
           <div className="grid1card2">
             <div className="cardimg">
               <Image
-                src="/flowerimg.svg"
+                src="./flowerimg.svg"
                 alt="button"
                 className="flowerimg"
                 width={230}
@@ -293,7 +293,7 @@ const Maincontent = () => {
             <div className="tasknum">
               <p>Space Tasks 2</p>
               <Image
-                src="/Avatar9.svg"
+                src="./Avatar9.svg"
                 alt="button"
                 className="avatarimg"
                 width={20}
@@ -307,7 +307,7 @@ const Maincontent = () => {
             <div className="iconslist">
               <div>
                 <Image
-                  src="/preview.svg"
+                  src="./preview.svg"
                   alt="Preview"
                   className="g2c2Logo"
                   width={18}
@@ -318,7 +318,7 @@ const Maincontent = () => {
               </div>
               <div>
                 <Image
-                  src="/attachment.svg"
+                  src="./attachment.svg"
                   alt="attachementLogo"
                   className="g2c2Logo"
                   width={24}
@@ -330,7 +330,7 @@ const Maincontent = () => {
 
               <div>
                 <Image
-                  src="/alarmclock.svg"
+                  src="./alarmclock.svg"
                   alt="button"
                   className="g2c2Logo"
                   width={19.08}
@@ -349,7 +349,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/avimg1.svg"
+                  src="./avimg1.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -357,7 +357,7 @@ const Maincontent = () => {
                   priority
                 />
                 <Image
-                  src="/avimg2.svg"
+                  src="./avimg2.svg"
                   alt="manpic"
                   className="g1c3img img2"
                   width={20}
@@ -376,7 +376,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/al1.svg"
+                  src="./al1.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -384,7 +384,7 @@ const Maincontent = () => {
                   priority
                 />
                 <Image
-                  src="/al2.svg"
+                  src="./al2.svg"
                   alt="ladypic"
                   className="g1c3img img2"
                   width={20}
@@ -392,7 +392,7 @@ const Maincontent = () => {
                   priority
                 />
                 <Image
-                  src="/al3.svg"
+                  src="./al3.svg"
                   alt="ladypic"
                   className="g1c3img img3"
                   width={20}
@@ -412,7 +412,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/al4.svg"
+                  src="./al4.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -431,7 +431,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/al5.svg"
+                  src="./al5.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -450,7 +450,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/al6.svg"
+                  src="./al6.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -471,7 +471,7 @@ const Maincontent = () => {
               <div>
                 <p className="cardtext">In Work</p>
                 <Image
-                  src="/five.svg"
+                  src="./five.svg"
                   alt="button"
                   className="cardLogo"
                   width={30}
@@ -482,7 +482,7 @@ const Maincontent = () => {
             </div>
             <div className="cardright">
               <Image
-                src="/dotes.svg"
+                src="./dotes.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -490,7 +490,7 @@ const Maincontent = () => {
                 priority
               />{" "}
               <Image
-                src="/pluseicon.svg"
+                src="./pluseicon.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -507,7 +507,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/av21.svg"
+                  src="./av21.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -521,7 +521,7 @@ const Maincontent = () => {
           <div className="grid1card2">
             <div className="cardimg">
               <Image
-                src="/resorts.svg"
+                src="./resorts.svg"
                 alt="button"
                 className="flowerimg"
                 width={230}
@@ -532,7 +532,7 @@ const Maincontent = () => {
             <div className="tasknum">
               <p>Space Tasks 2</p>
               <Image
-                src="/Avatar9.svg"
+                src="./Avatar9.svg"
                 alt="button"
                 className="avatarimg"
                 width={20}
@@ -546,7 +546,7 @@ const Maincontent = () => {
             <div className="iconslist">
               <div>
                 <Image
-                  src="/preview.svg"
+                  src="./preview.svg"
                   alt="Preview"
                   className="g2c2Logo"
                   width={18}
@@ -557,7 +557,7 @@ const Maincontent = () => {
               </div>
               <div>
                 <Image
-                  src="/attachment.svg"
+                  src="./attachment.svg"
                   alt="attachementLogo"
                   className="g2c2Logo"
                   width={24}
@@ -569,7 +569,7 @@ const Maincontent = () => {
 
               <div>
                 <Image
-                  src="/alarmclock.svg"
+                  src="./alarmclock.svg"
                   alt="button"
                   className="g2c2Logo"
                   width={19.08}
@@ -588,7 +588,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/av23.svg"
+                  src="./av23.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -604,7 +604,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/av23.svg"
+                  src="./av23.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -617,7 +617,7 @@ const Maincontent = () => {
             <div className="iconslist">
               <div>
                 <Image
-                  src="/preview.svg"
+                  src="./preview.svg"
                   alt="Preview"
                   className="g2c2Logo"
                   width={18}
@@ -628,7 +628,7 @@ const Maincontent = () => {
               </div>
               <div>
                 <Image
-                  src="/attachment.svg"
+                  src="./attachment.svg"
                   alt="attachementLogo"
                   className="g2c2Logo"
                   width={24}
@@ -640,7 +640,7 @@ const Maincontent = () => {
 
               <div>
                 <Image
-                  src="/redclock.svg"
+                  src="./redclock.svg"
                   alt="button"
                   className="g2c2Logo"
                   width={19.08}
@@ -661,7 +661,7 @@ const Maincontent = () => {
               <div>
                 <p className="cardtext">Review</p>
                 <Image
-                  src="/five.svg"
+                  src="./five.svg"
                   alt="button"
                   className="cardLogo"
                   width={30}
@@ -672,7 +672,7 @@ const Maincontent = () => {
             </div>
             <div className="cardright">
               <Image
-                src="/dotes.svg"
+                src="./dotes.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -680,7 +680,7 @@ const Maincontent = () => {
                 priority
               />{" "}
               <Image
-                src="/pluseicon.svg"
+                src="./pluseicon.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -697,7 +697,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/av31.svg"
+                  src="./av31.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -716,7 +716,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/av23.svg"
+                  src="./av23.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -731,7 +731,7 @@ const Maincontent = () => {
             <div className="g1c3sec1">
               <div>
                 <Image
-                  src="/rcross.svg"
+                  src="./rcross.svg"
                   alt="ladypic"
                   className="rcross"
                   width={13.19}
@@ -742,7 +742,7 @@ const Maincontent = () => {
               <span className="secondary_font">Task name or type</span>
               <div>
                 <Image
-                  src="/av33.svg"
+                  src="./av33.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -755,7 +755,7 @@ const Maincontent = () => {
               <div className="g3c4">
                 <div>
                   <Image
-                    src="/flag.svg"
+                    src="./flag.svg"
                     alt="Preview"
                     className="g2c2Logo"
                     width={15}
@@ -765,7 +765,7 @@ const Maincontent = () => {
                 </div>
                 <div>
                   <Image
-                    src="/attachment.svg"
+                    src="./attachment.svg"
                     alt="attachementLogo"
                     className="g2c2Logo"
                     width={24}
@@ -776,7 +776,7 @@ const Maincontent = () => {
 
                 <div>
                   <Image
-                    src="/watch.svg"
+                    src="./watch.svg"
                     alt="button"
                     className="g2c2Logo"
                     width={20}
@@ -798,7 +798,7 @@ const Maincontent = () => {
               <div>
                 <p className="cardtext">Done</p>
                 <Image
-                  src="/five.svg"
+                  src="./five.svg"
                   alt="button"
                   className="cardLogo"
                   width={30}
@@ -809,7 +809,7 @@ const Maincontent = () => {
             </div>
             <div className="cardright">
               <Image
-                src="/dotes.svg"
+                src="./dotes.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -817,7 +817,7 @@ const Maincontent = () => {
                 priority
               />{" "}
               <Image
-                src="/pluseicon.svg"
+                src="./pluseicon.svg"
                 alt="button"
                 className="cardLogo"
                 width={30}
@@ -834,7 +834,7 @@ const Maincontent = () => {
               <span>Space Tasks 2</span>
               <div>
                 <Image
-                  src="/av23.svg"
+                  src="./av23.svg"
                   alt="ladypic"
                   className="g1c3img img1"
                   width={20}
@@ -885,7 +885,7 @@ const Maincontent = () => {
                 </li>
               </ul>
               <Image
-                src="/cicon.svg"
+                src="./cicon.svg"
                 alt="ladypic"
                 className="g1c3img img1"
                 width={20}
@@ -895,7 +895,7 @@ const Maincontent = () => {
             </div>
             <div>
               <Image
-                src="/rcross.svg"
+                src="./rcross.svg"
                 alt="ladypic"
                 className="g1c3img img1"
                 width={20}
@@ -909,7 +909,7 @@ const Maincontent = () => {
             <div className="comdivflexclass">
               <div>
                 <Image
-                  src="/dirarrow.svg"
+                  src="./dirarrow.svg"
                   alt="ladypic"
                   className="commondivlogo"
                   width={14.58}
@@ -922,7 +922,7 @@ const Maincontent = () => {
             <div className="comdivflexclass">
               <div>
                 <Image
-                  src="/flag.svg"
+                  src="./flag.svg"
                   alt="ladypic"
                   className="commondivlogo"
                   width={15}
@@ -935,7 +935,7 @@ const Maincontent = () => {
             <div className="comdivflexclass">
               <div>
                 <Image
-                  src="/file.svg"
+                  src="./file.svg"
                   alt="ladypic"
                   className="commondivlogo"
                   width={24}
@@ -948,7 +948,7 @@ const Maincontent = () => {
             <div className="comdivflexclass">
               <div>
                 <Image
-                  src="/comment.svg"
+                  src="./comment.svg"
                   alt="ladypic"
                   className="commondivlogo"
                   width={20}
@@ -961,7 +961,7 @@ const Maincontent = () => {
             <div className="comdivflexclass">
               <div>
                 <Image
-                  src="/av23.svg"
+                  src="./av23.svg"
                   alt="ladypic"
                   className="tylerimgs"
                   width={30}
@@ -980,7 +980,7 @@ const Maincontent = () => {
               </div>
               <div className="bottomsec33">
                 <Image
-                  src="/gtarrow.svg"
+                  src="./gtarrow.svg"
                   alt="ladypic"
                   className="gtarrow"
                   width={7}
@@ -996,7 +996,7 @@ const Maincontent = () => {
 
             <div className="bottomsec2">
               <Image
-                src="/playbtn.svg"
+                src="./playbtn.svg"
                 alt="ladypic"
                 className="playbtnimg"
                 width={60}

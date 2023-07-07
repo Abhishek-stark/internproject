@@ -9,7 +9,7 @@ const Sidebar = () => {
         <div className="sidebar_icon">
           <div>
             <Image
-              src="/man.svg"
+              src="./man.svg"
               alt="button"
               className="sidebarLogo"
               width={50}
@@ -19,7 +19,7 @@ const Sidebar = () => {
           </div>
           <div>
             <Image
-              src="/tripledot.svg"
+              src="./tripledot.svg"
               alt="button"
               className="sidebarLogo"
               width={50}
@@ -31,7 +31,7 @@ const Sidebar = () => {
         <div className="alfredsec">
           <div>
             <Image
-              src="/alfred.svg"
+              src="./alfred.svg"
               alt="button"
               className="alfredLogo"
               width={50}
@@ -45,7 +45,7 @@ const Sidebar = () => {
         <div className="tablesec">
           <div className="detailsec dashboardlogo">
             <Image
-              src="/dashboard.svg"
+              src="./dashboard.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -56,7 +56,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec notessec">
             <Image
-              src="/notes.svg"
+              src="./notes.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -67,7 +67,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec">
             <Image
-              src="/tasks.svg"
+              src="./tasks.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -78,7 +78,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec">
             <Image
-              src="/cloud.svg"
+              src="./cloud.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -89,7 +89,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec">
             <Image
-              src="/email.svg"
+              src="./email.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -100,7 +100,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec">
             <Image
-              src="/group.svg"
+              src="./group.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -111,7 +111,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec">
             <Image
-              src="/calendars.svg"
+              src="./calendars.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -122,7 +122,7 @@ const Sidebar = () => {
           </div>
           <div className="detailsec settinglogo">
             <Image
-              src="/setting.svg"
+              src="./setting.svg"
               alt="button"
               className="tablesecLogo"
               width={50}
@@ -135,7 +135,7 @@ const Sidebar = () => {
         <div className="social">
           <div>
             <Image
-              src="/local_phone.svg"
+              src="./local_phone.svg"
               alt="button"
               className="socialLogo"
               width={50}
@@ -145,7 +145,7 @@ const Sidebar = () => {
           </div>
           <div>
             <Image
-              src="/mail.svg"
+              src="./mail.svg"
               alt="button"
               className="socialLogo"
               width={50}
@@ -155,7 +155,7 @@ const Sidebar = () => {
           </div>
           <div>
             <Image
-              src="/chrome_reader_mode.svg"
+              src="./chrome_reader_mode.svg"
               alt="button"
               className="socialLogo"
               width={50}
@@ -166,7 +166,7 @@ const Sidebar = () => {
           <div>
             {" "}
             <Image
-              src="/ic_telegram.svg"
+              src="./ic_telegram.svg"
               alt="button"
               className="socialLogo"
               width={50}
@@ -176,7 +176,7 @@ const Sidebar = () => {
           </div>
           <div>
             <Image
-              src="/ic_whatsapp.svg"
+              src="./ic_whatsapp.svg"
               alt="button"
               className="socialLogo"
               width={50}

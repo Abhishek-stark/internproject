@@ -28,7 +28,7 @@ const page = () => {
             <li className="ul_li1">
               <button className="menubtn">
                 <Image
-                  src="/button.svg"
+                  src="./button.svg"
                   alt="button"
                   className="vercelLogo"
                   width={50}
@@ -50,7 +50,7 @@ const page = () => {
             <li className="ul_li3">...</li>
             <li className="ul_li9">
               <Image
-                src="/searchicon.svg"
+                src="./searchicon.svg"
                 alt="button"
                 className="navsearchicon"
                 width={18}
@@ -64,7 +64,7 @@ const page = () => {
                 />
               </form>
               <Image
-                src="/gtarrow.svg"
+                src="./gtarrow.svg"
                 alt="button"
                 className="gtarrowicon"
                 width={7}
@@ -74,7 +74,7 @@ const page = () => {
             </li>
             <li>
               <Image
-                src="/account_circle.svg"
+                src="./account_circle.svg"
                 alt="button"
                 className="vercelLogo"
                 width={50}
@@ -86,7 +86,7 @@ const page = () => {
             <li className="ul_li11">
               {" "}
               <Image
-                src="/alarm.svg"
+                src="./alarm.svg"
                 alt="button"
                 className="vercelLogo"
                 width={50}
@@ -97,7 +97,7 @@ const page = () => {
             <li className="ul_li12">
               {" "}
               <Image
-                src="/cross.svg"
+                src="./cross.svg"
                 alt="button"
                 className="vercelLogo"
                 width={50}

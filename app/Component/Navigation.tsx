@@ -14,7 +14,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
         <div className="navigation_div_1">
           <div>
             <Image
-              src="/compass.svg"
+              src="./compass.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -24,7 +24,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/star.svg"
+              src="./star.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -34,7 +34,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/messenger.svg"
+              src="./messenger.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -44,7 +44,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/linegraph.svg"
+              src="./linegraph.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -54,7 +54,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/map.svg"
+              src="./map.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -64,7 +64,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/gridtable.svg"
+              src="./gridtable.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -76,7 +76,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
         <div className="navigation_div2">
           <div>
             <Image
-              src="/img1.svg"
+              src="./img1.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -86,7 +86,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/img2.svg"
+              src="./img2.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -96,7 +96,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/img3.svg"
+              src="./img3.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -106,7 +106,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/img4.svg"
+              src="./img4.svg"
               alt="button"
               className="navigationLogo"
               width={50}
@@ -116,7 +116,7 @@ const Navigation = ({ classpasses }: { classpasses: boolean }) => {
           </div>
           <div>
             <Image
-              src="/lastbtn.svg"
+              src="./lastbtn.svg"
               alt="button"
               className="navigationLogo"
               width={50}
