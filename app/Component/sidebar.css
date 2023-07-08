@@ -1,15 +1,19 @@
 .sidebar_container {
     font-family: 'Roboto', sans-serif;
     align-items: center;
+    height: 983px;
+    width: 250px;
+    margin: 42px 40px 10px 60px;
 }
 
 .sidebar {
-    margin: 49px 40px 10px 60px;
+    /* margin: 42px 40px 10px 60px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F7F8FA;
-    width: 250px;
+    width: 240px;
+    height: 983px;
 }
 
 .sidebar_icon {
@@ -46,10 +50,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 60px;
-    border-top-left-radius: 13px;
-    border: 2px solid #EDEFF2;
+    /* border-top-left-radius: 13px; */
+    /* border: 2px solid #EDEFF2; */
     height: 490px;
-    width: 250px;
+    width: 240px;
+    row-gap: 0px;
+    padding-top: 10px;
 }
 
 .tablesecLogo {

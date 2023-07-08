@@ -791,6 +791,167 @@ const Maincontent = () => {
               </div>
             </div>
           </div>
+          {/* adding */}
+          <div
+            className={`${
+              (gr1c1 ||
+                gr1c2 ||
+                gr1c3 ||
+                gr1c4 ||
+                gr1c5 ||
+                gr2c1 ||
+                gr2c2 ||
+                gr3c1 ||
+                gr3c2 ||
+                gr4c1) &&
+              hides
+                ? "commondiv"
+                : "hide"
+            }`}
+          >
+            <div className="commondivsec1">
+              <div className="topsec">
+                <ul>
+                  <li>
+                    <span>
+                      {gr2c1
+                        ? "Types Of Paper"
+                        : gr2c2
+                        ? "Development Apps"
+                        : gr3c1
+                        ? "Astronomy Of Astrology"
+                        : gr3c2
+                        ? "Astronomy Binoculars"
+                        : gr4c1
+                        ? "Copper Canyon"
+                        : "Make Money Online"}
+                    </span>
+                  </li>
+                </ul>
+                <Image
+                  src="./cicon.svg"
+                  alt="ladypic"
+                  className="g1c3img img1"
+                  width={20}
+                  height={20}
+                  priority
+                />
+              </div>
+              <div>
+                <Image
+                  src="./rcross.svg"
+                  alt="ladypic"
+                  className="g1c3img img1"
+                  width={20}
+                  height={20}
+                  priority
+                  onClick={hiding}
+                />
+              </div>
+            </div>
+            <div className="commondivsec2">
+              <div className="comdivflexclass">
+                <div>
+                  <Image
+                    src="./dirarrow.svg"
+                    alt="ladypic"
+                    className="commondivlogo"
+                    width={14.58}
+                    height={16.58}
+                    priority
+                  />
+                  <p>4 Subtasks</p>
+                </div>
+              </div>
+              <div className="comdivflexclass">
+                <div>
+                  <Image
+                    src="./flag.svg"
+                    alt="ladypic"
+                    className="commondivlogo"
+                    width={15}
+                    height={17}
+                    priority
+                  />
+                  <p>Priority Enabled</p>
+                </div>
+              </div>
+              <div className="comdivflexclass">
+                <div>
+                  <Image
+                    src="./file.svg"
+                    alt="ladypic"
+                    className="commondivlogo"
+                    width={24}
+                    height={17}
+                    priority
+                  />
+                  <p>3 Files</p>
+                </div>
+              </div>
+              <div className="comdivflexclass">
+                <div>
+                  <Image
+                    src="./comment.svg"
+                    alt="ladypic"
+                    className="commondivlogo"
+                    width={20}
+                    height={20}
+                    priority
+                  />
+                  <p>7 Comments</p>
+                </div>
+              </div>
+              <div className="comdivflexclass">
+                <div>
+                  <Image
+                    src="./av23.svg"
+                    alt="ladypic"
+                    className="tylerimgs"
+                    width={30}
+                    height={30}
+                    priority
+                  />
+                  <p>Tyler Norman</p>
+                </div>
+              </div>
+            </div>
+            <div className="commondivsec3">
+              <div className="bottomsec1">
+                <div className="bottomsec31">
+                  <p className="lightcolor">START DATE</p>
+                  <p className="medium-size">Sep 3,9:00 pm</p>
+                </div>
+                <div className="bottomsec33">
+                  <Image
+                    src="./gtarrow.svg"
+                    alt="ladypic"
+                    className="gtarrow"
+                    width={7}
+                    height={12}
+                    priority
+                  />
+                </div>
+                <div className="bottomsec32">
+                  <p className="lightcolor">DUE DATE</p>
+                  <p className="medium-size">Sep 4,9:00 pm</p>
+                </div>
+              </div>
+
+              <div className="bottomsec2">
+                <Image
+                  src="./playbtn.svg"
+                  alt="ladypic"
+                  className="playbtnimg"
+                  width={60}
+                  height={60}
+                  priority
+                />
+                <span className="videoplaytime">0:00</span>
+              </div>
+            </div>
+          </div>
+          {/* adding🔚  */}
         </div>
         <div className="congrid grid4">
           <div className="grid1card1 green">
@@ -848,7 +1009,7 @@ const Maincontent = () => {
         </div>
 
         {/* commondiv */}
-        <div
+        {/* <div
           className={`${
             (gr1c1 ||
               gr1c2 ||
@@ -1006,7 +1167,7 @@ const Maincontent = () => {
               <span className="videoplaytime">0:00</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

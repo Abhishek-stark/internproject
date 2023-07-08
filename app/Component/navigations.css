@@ -1,17 +1,18 @@
 .navigation_container {
-    /* padding-top: 50px; */
     background-color: #F7F8FA;
     grid-row: 1 / -1;
-    height: 1050px;
-    width: 100px;
+    height: 1074px;
+    width: 75px;
     border-right: 2px solid #EDEFF2;
     box-sizing: border-box;
+    margin-left: 25px;
+    transition: all .2s ease-in-out;
 }
 
 .update_navigation {
-    height: 0px;
     width: 0px;
     visibility: hidden;
+    transition: all .2s ease-in-out;
 }
 
 .navigation {
