@@ -127,6 +127,7 @@
     border-radius: 0px 0px 20px 20px;
     display: grid;
     grid-template-columns: [navigate] 100px[navigate-end sidebar-start] 350px [sidebar-end main-start] 1110px [main-end];
+    transition: all .2s ease-in-out;
 }
 
 .changedmainsection {
@@ -135,4 +136,5 @@
     border-radius: 0px 0px 20px 20px;
     display: grid;
     grid-template-columns: 5px 350px 1110px;
+    transition: all .2s ease-in-out;
 }
